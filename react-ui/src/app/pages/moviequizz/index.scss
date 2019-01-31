@@ -1,0 +1,12 @@
+.game {
+    height: calc(100vh - 400px);
+    text-align: center;
+
+    .play {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+}

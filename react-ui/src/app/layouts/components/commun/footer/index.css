@@ -1,0 +1,11 @@
+#footer ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none; }
+  #footer ul li {
+    width: 200px; }
+    #footer ul li a {
+      color: #3F3F3F;
+      font-weight: bold; }
+      #footer ul li a#jendigital {
+        color: gold; }

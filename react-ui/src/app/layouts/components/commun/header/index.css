@@ -1,0 +1,13 @@
+#header {
+  text-align: center;
+  margin-top: 20px; }
+  #header a {
+    color: gold;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none; }
+  #header #yoss {
+    width: 100px; }
+  #header #movie {
+    width: 300px; }

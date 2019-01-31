@@ -1,0 +1,21 @@
+$darkgrey:        #3F3F3F;
+
+#footer {
+    ul {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+
+        li {
+            width: 200px;
+            a {
+                color: $darkgrey;
+                font-weight: bold;
+
+                &#jendigital {
+                    color: gold;
+                }
+            }
+        }
+    }
+}
