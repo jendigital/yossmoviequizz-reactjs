@@ -24,6 +24,17 @@ https://api.themoviedb.org/ & https://www.themoviedb.org/documentation/api
 1. Having create a playmode with a simple boolean play state 
 2. Set Timer and score in a header stateless component
 3. Set a stateless component which display an actor and a movie poster and test it with a picture
+4. Fetch movies and actors for the quizz
+5. As there is only 20 results per page and we wanna play on most popular actors and movies, i choose to work with the 10 first page
+6. Create a function which give a 0(false) or 1(true) ramdomly to set the right answer
+7. Notify player if he wins or lose
+8. Create player name form
+9. Create highscores board
+10. Reset scores
+11. No use of any bdd, didn't have time to use locale storage
+12. Some code could have been optimised
+
+![alt text](https://github.com/jendigital/yossmoviequizz-reactjs/blob/master/game.png)
 
 ## Heroku App
 

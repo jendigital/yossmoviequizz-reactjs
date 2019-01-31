@@ -1,5 +1,5 @@
 .game {
-    height: calc(100vh - 400px);
+    height: calc(100vh - 375px);
     text-align: center;
 
     .play {
@@ -8,5 +8,20 @@
         justify-content: center;
         align-items: center;
         height: 100%;
+    }
+
+    .playing {
+        height: 100%;
+    }
+
+    .correct {
+        color: gold;
+        margin-top: 20px;
+    }
+
+    .replay {
+        img {
+            width: 50px;
+        }
     }
 }

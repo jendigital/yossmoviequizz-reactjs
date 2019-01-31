@@ -1,0 +1,24 @@
+.highscores {
+  display: flex;
+  flex-direction: column;
+  margin: 50px; }
+  .highscores .highscore-title {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 10px; }
+    .highscores .highscore-title .reset {
+      color: gold;
+      border-color: gold; }
+  .highscores .highscore-header {
+    display: flex;
+    background-color: gold;
+    color: white; }
+    .highscores .highscore-header div {
+      width: 33%; }
+  .highscores .highscore {
+    display: flex;
+    border: 1px solid gold; }
+    .highscores .highscore div {
+      width: 33%; }

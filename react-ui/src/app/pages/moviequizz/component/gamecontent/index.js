@@ -5,11 +5,11 @@ export default function GameContent(props) {
     return (
         <div className='question'>
             <h4>
-                Est-ce que { props.actor.name } a joué dans { props.movie.name } ?
+                Est-ce que { props.actor_name } a joué dans { props.movie_name } ?
             </h4>
             <div className='posters'>
-                <img className='actor' alt='actor' src={props.actor.img} />
-                <img className='movie' alt='movie' src={props.movie.img} />
+                <img className='actor' alt='actor' src={props.actor_img} />
+                <img className='movie' alt='movie' src={props.movie_img} />
             </div>
             <div className='answer'>
                 <div className='answer_button yes' onClick={props.agree}>Oui</div>

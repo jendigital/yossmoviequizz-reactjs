@@ -1,0 +1,26 @@
+.gameover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+    h4 {
+        color: red;
+    }
+    
+
+    .register {
+        color: black;
+
+        .score {
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: gold;
+            border: 0;
+            padding: 2px;
+        }
+    }
+}
