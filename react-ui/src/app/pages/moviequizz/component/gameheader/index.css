@@ -1,0 +1,17 @@
+.playing-header {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  background-color: gold;
+  margin-top: 20px; }
+  .playing-header .rightanswer {
+    display: flex;
+    align-items: center;
+    margin-left: 20px; }
+  .playing-header .timer {
+    display: flex;
+    align-items: center; }
+    .playing-header .timer .duration {
+      padding: 10px;
+      margin-left: 5px;
+      width: 100px; }

@@ -1,0 +1,23 @@
+.question h4 {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.question .posters {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .question .posters img {
+    width: 255px;
+    height: 300px; }
+  .question .posters .actor {
+    padding-right: 40px; }
+
+.question .answer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; }
+  .question .answer .answer_button {
+    background-color: gold;
+    padding: 10px; }
+    .question .answer .answer_button.yes {
+      margin-right: 30px; }

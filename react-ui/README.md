@@ -19,6 +19,12 @@ https://api.themoviedb.org/ & https://www.themoviedb.org/documentation/api
 
 ![alt text](https://github.com/jendigital/yossmoviequizz-reactjs/blob/master/movielist.png)
 
+##Step of development 
+
+1. Having create a playmode with a simple boolean play state 
+2. Set Timer and score in a header stateless component
+3. Set a stateless component which display an actor and a movie poster and test it with a picture
+
 ## Heroku App
 
 Can be deployed on heroku

@@ -1,0 +1,36 @@
+.question {
+    h4 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .posters {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 255px;
+            height: 300px;
+        }
+
+        .actor {
+            padding-right: 40px;
+        }
+    }
+
+    .answer {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+
+        .answer_button {
+            background-color: gold;
+            padding: 10px;
+
+            &.yes {
+                margin-right: 30px;
+            }
+        }
+    }
+}
